@@ -58,7 +58,15 @@ body {
     text-align: center;
 }
 
+a:hover {
+    background: #65a6f0;
+    color: #ffffff;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
 a {
+    background: #ffffff;
+    color: #65a6f0;
     -webkit-transition: all .3s;
     transition: all .3s
 }
@@ -76,7 +84,7 @@ a {
 }
 
 .color {
-    color: #ffff00;
+    color: #65a6f0;
     font-size: 11px;
 }
 
@@ -85,7 +93,7 @@ a {
 ==================================================*/
 
 h1 {
-    color: #393939;
+    color: #000000;
     font-size: 60px;
     text-transform: uppercase;
 }
@@ -178,6 +186,7 @@ h5 {
 ==================================================*/
 
 .box-header {
+       
     position: absolute;
     top: 0;
     left: 0;
@@ -197,6 +206,7 @@ h5 {
 }
 
 .box-header {
+  
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
     -webkit-transform: translate3d(0, 0, 0);
@@ -221,6 +231,7 @@ h5 {
 }
 
 .box-header.menu-is-open {
+     
     background-color: rgba(255, 255, 255, 0.96);
 }
 
@@ -230,6 +241,7 @@ h5 {
 }
 
 .box-primary-nav-trigger {
+     color: #000000;
     position: absolute;
     right: 0;
     top: 0;
@@ -239,7 +251,8 @@ h5 {
 }
 
 .box-primary-nav-trigger .box-menu-text {
-    color: #393939;
+    
+    color: #000000;
     text-transform: uppercase;
     font-weight: 700;
     display: none;
@@ -256,7 +269,7 @@ h5 {
     transform: translateX(-50%) translateY(-50%);
     width: 18px;
     height: 2px;
-    background-color: #393939;
+    background-color: #000000;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
     list-style: none;
@@ -268,7 +281,7 @@ h5 {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: #393939;
+    background-color: #000000;
     right: 0;
     -webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
     -webkit-transition: top .3s, background-color 0s, -webkit-transform .3s;
@@ -278,23 +291,27 @@ h5 {
 }
 
 .box-primary-nav-trigger .box-menu-icon::before {
+    
     top: -5px;
 }
 
 .box-primary-nav-trigger .box-menu-icon::after {
+    
     top: 5px;
 }
 
 .box-primary-nav-trigger .box-menu-icon.is-clicked {
+    
     background-color: rgba(255, 255, 255, 0);
 }
 
 .box-primary-nav-trigger .box-menu-icon.is-clicked::before,
 .box-primary-nav-trigger .box-menu-icon.is-clicked::after {
-    background-color: 393939;
+   background-color: transparent;
 }
 
 .box-primary-nav-trigger .box-menu-icon.is-clicked::before {
+       
     top: 0;
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
@@ -307,6 +324,7 @@ h5 {
 }
 
 .box-primary-nav-trigger {
+
     width: 100px;
     padding-left: 1em;
     background-color: transparent;
@@ -320,10 +338,12 @@ h5 {
 }
 
 .box-primary-nav-trigger .box-menu-text {
+      
     display: inline-block;
 }
 
 .box-primary-nav-trigger .box-menu-icon {
+      
     left: auto;
     right: 1em;
     -webkit-transform: translateX(0) translateY(-50%);
@@ -331,6 +351,7 @@ h5 {
 }
 
 .box-primary-nav {
+     
     position: fixed;
     left: 0;
     top: 0;
@@ -356,7 +377,7 @@ h5 {
 }
 
 .box-primary-nav li {
-    font-size: 22px;
+    font-size: 53px;
     font-size: 1.375rem;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
@@ -366,12 +387,13 @@ h5 {
 }
 
 .box-primary-nav a {
+    background-color: transparent;
     display: inline-block;
     padding: .4em 1em;
     border-radius: 0.25em;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
-    color: #fff;
+
     text-decoration: none;
     font-weight: bold;
 }
@@ -381,14 +403,14 @@ h5 {
 
 .no-touch .box-primary-nav a:hover {
     text-decoration: none;
-    color: #ddd;
+    color: #ffffff;
 }
 
 .box-primary-nav .box-label {
-    color: #65a6f0;
+    color: #ffffff;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 56px;
     margin: 2.4em 0 .8em;
 }
 
@@ -401,7 +423,7 @@ h5 {
     width: 30px;
     height: 30px;
     padding: 0;
-    font-size: 30px
+    font-size: 150px
 }
 
 .box-primary-nav.is-visible {
@@ -410,11 +432,13 @@ h5 {
 }
 
 .box-primary-nav {
-    padding: 150px 0 0;
+   color: #65a6f0;
+    padding: 100px 0 0;
 }
 
 .box-primary-nav li {
-    font-size: 18px;
+    color: #65a6f0;
+    font-size: 38px;
 }
 
 
@@ -698,7 +722,7 @@ b i:last-child {
 
 .portfolio .categories-grid .categories ul li a {
     display: inline-block;
-    color: #60606e;
+    color: #000000;
     padding: 0 10px;
     margin: 0 10px;
     -webkit-transition: all .2s ease-in-out .2s;
@@ -769,10 +793,10 @@ b i:last-child {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #65a6f0;
+    background-color: #ffffff;
     padding: 5px 20px;
     border-radius: 25px;
-    color: #333;
+    color: #000000;
     margin-top: 10px;
     -webkit-transform: translateX(-100px);
     transform: translateX(-100px);
@@ -889,7 +913,7 @@ footer img {
 ==================================================*/
 
 .top-bar {
-    color: #333;
+    color: #000000;
 /*    padding: 150px 0 150px;*/
     padding-top: 150px;
        padding-bottom: 50px;
@@ -913,7 +937,7 @@ footer img {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 500;
-    color: #777;
+    color: #000000;
 }
 
 .top-bar p a {
@@ -922,7 +946,7 @@ footer img {
 
 .top-bar p a:hover,
 .top-bar p a:focus {
-    color: #555;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -939,13 +963,13 @@ footer img {
 
 .social-ul li a {
     font-size: 25px;
-    color: #555;
+    color: #000000;
     -webkit-transition: all .3s;
     transition: all .3s;
 }
 
 .social-ul li a:hover {
-    color: #888;
+    color: #000000;
 }
 
 
@@ -1090,7 +1114,7 @@ textarea:focus {
 
 .btn-box:hover,
 .btn-box:focus {
-    background: #F5B700;
+    background: #65a6f0;
     color: #fff;
 }
 
@@ -1105,6 +1129,14 @@ textarea:focus {
 }
 
 .cat-ul li i {
+    
+    margin-right: 10px;
+    color: #65a6f0;
+    
+}
+
+.cat-ul li b {
+    font-weight: bolder;
     margin-right: 10px;
     color: #65a6f0;
     
@@ -1136,11 +1168,12 @@ textarea:focus {
         font-size: 100px;
     }
     .box-intro h5 {
-        font-size: 12px;
+        line-height: 55px;
+        font-size: 52px;
     }
     .box-primary-nav a {
         padding: 5px 1em;
-        font-size: 14px;
+        font-size: 64px;
     }
     .box-primary-nav {
         padding: 80px 0 0;
@@ -1149,7 +1182,7 @@ textarea:focus {
         font-size: 23px;
     }
     .top-bar h1 {
-        font-size: 40px;
+        font-size: 60px;
         line-height: 30px;
     }
     .portfolio .categories-grid .categories ul li {
