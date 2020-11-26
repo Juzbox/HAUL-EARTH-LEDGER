@@ -121,6 +121,7 @@ h3 {
 
 h5 {
     color: #65a6f0;
+    line-height: 18px;
 }
 
 
@@ -1154,7 +1155,6 @@ textarea:focus {
 
 .cat-ul li b {
     font-weight: bolder;
-    margin-right: 10px;
     color: #65a6f0;
     
 }
