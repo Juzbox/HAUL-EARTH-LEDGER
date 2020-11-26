@@ -57,19 +57,36 @@ body {
 .center {
     text-align: center;
 }
-
-a:hover {
-    background: #65a6f0;
-    color: #ffffff;
-    -webkit-transition: all .3s;
-    transition: all .3s
-}
-a {
+a:active{
     background: #ffffff;
     color: #65a6f0;
     -webkit-transition: all .3s;
     transition: all .3s
 }
+a:visited{
+    background: #ffffff;
+    color: #65a6f0;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+a:link {
+    background: #ffffff;
+    color: #65a6f0;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+
+a:hover {
+    background: #65a6f0;
+    text-decoration: none;
+    color: #ffffff;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+
+/*a:visited*/
+
+
 
 .uppercase {
     text-transform: uppercase;
@@ -1137,7 +1154,7 @@ textarea:focus {
 
 .cat-ul li b {
     font-weight: bolder;
-    
+    margin-right: 10px;
     color: #65a6f0;
     
 }
