@@ -1186,15 +1186,15 @@ textarea:focus {
 
 @media only screen and (max-width: 670px) {
     .box-headline {
-        font-size: 100px;
+        font-size: 1.2em;
     }
     .box-intro h5 {
         line-height: 55px;
-        font-size: 52px;
+        font-size: 1.2em;
     }
     .box-primary-nav a {
         padding: 5px 1em;
-        font-size: 64px;
+        font-size: 0.6em;
     }
     .box-primary-nav {
         padding: 80px 0 0;
