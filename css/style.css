@@ -93,16 +93,16 @@ a:hover {
 }
 
 .h-30 {
-    height: 30px
+    height: 2em
 }
 
 .h-10 {
-    height: 10px
+    height: 0.8em
 }
 
 .color {
     color: #65a6f0;
-    font-size: 11px;
+    font-size: 1em;
 }
 
 
@@ -111,7 +111,7 @@ a:hover {
 
 h1 {
     color: #000000;
-    font-size: 60px;
+    font-size: 4em;
     text-transform: uppercase;
 }
 
@@ -121,7 +121,7 @@ h3 {
 
 h5 {
     color: #65a6f0;
-    line-height: 18px;
+    line-height: 2em;
 }
 
 
@@ -152,8 +152,8 @@ h5 {
 }
 
 .spinner {
-    width: 40px;
-    height: 40px;
+    width: 2em;
+    height: 2em;
     position: relative;
     margin: 100px auto;
 }
@@ -254,8 +254,9 @@ h5 {
 }
 
 .box-logo {
+    width: 100%;
     display: block;
-    padding: 20px;
+    padding: 1.5em;
 }
 
 .box-primary-nav-trigger {
@@ -471,11 +472,14 @@ h5 {
 }
 
 .box-intro .table-cell {
+    
     display: table-cell;
     vertical-align: middle;
 }
 
 .box-intro em {
+
+
     font-style: normal;
     text-transform: uppercase
 }
@@ -1205,6 +1209,24 @@ textarea:focus {
     .portfolio .categories-grid .categories ul li {
         float: none;
     }
+    
+    .box-intro em {
+        font-size: 0.6em;
+    font-style: normal;
+    text-transform: uppercase
+}
+
+b i:last-child {
+    color: #65a6f0 !important;
+}
+
+.box-intro h5 {
+    font-size: 0.8em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #999;
+    line-height: 1.7
+}
 }
 
 @media only screen and (max-width: 520px) {
