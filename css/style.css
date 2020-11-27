@@ -472,7 +472,7 @@ h5 {
 }
 
 .box-intro .table-cell {
-    
+    width: 100%;
     display: table-cell;
     vertical-align: middle;
 }
